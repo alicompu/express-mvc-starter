@@ -24,9 +24,9 @@ Express MVC Starter
 .
 ├── app/
 │   └── controllers           # contains controller files
+│   └── helpers               # contains helper files
 │   └── models                # contains model files
 │   └── views                 # contains express view (pug) files
-│   └── web.js             # routes config file
 ├── config/
 │   ├── index.js              # environment config file
 │   └── db.js                 # db config
@@ -40,8 +40,8 @@ Express MVC Starter
 │   ├── js                    # contains js files
 │   └── img                   # contains image files
 ├── routes/
-│   ├── web.js                 # routes for web
-│   └── api.js                 # routes for api
+│   ├── web.js                # routes for web
+│   └── api.js                # routes for api
 ├── test/
 │   └── spec.js               # unit & func tests
 ├── .bowerrc                  # bower config
